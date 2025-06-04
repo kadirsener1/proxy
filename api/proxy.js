@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   const targetUrl = req.query.url;
-  const referer = req.query.referer || 'https://example.com';
+  const referer = req.query.referer || 'https://trgoals1350.xyz';
 
   if (!targetUrl) {
     return res.status(400).json({ error: 'url parametresi zorunludur' });
